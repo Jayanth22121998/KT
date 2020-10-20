@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <title>Home</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      h1
+{
+     font-family: Brush Script MT;
+     font-size: 80px;
+     text-align: center;
+     color: azure;
+
+}
+::ng-deep .mat-tab-header{
+    background-color: azure;
+}
+
+.mat-tab-group
+{
+    color: azure;
+    
+   ;
+}
+::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label-active {
+    color:rgb(8, 1, 1);
+    background-color:azure;
+  }
+  .mat-tab-header{
+    background-color: white;
+}
+
+.CPlogin
+{
+    font-family: Lucida Sans Typewriter;
+    text-align: center;
+    font-size: 32px;
+}
+.CPlogin1
+{
+    font-family: Lucida Sans Typewriter;
+    text-align: center;
+    size: 16px;
+    background-color: transparent;
+    color: azure;
+}
+ ::placeholder{
+     color: azure;
+     opacity: 0.7;
+ }
+ .submitbtn
+ {  font-family: Lucida Sans Typewriter;
+     background-color: transparent;
+     text-align: center;
+     color: azure;
+     size: 16px;
+ }
+ html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-image: url("https://i.pinimg.com/originals/a6/80/01/a68001cf4a325c0f3ea5f4b417b0fbca.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+    </style>
+
+  </head>
+
+
+  <body>
+    <img src="https://img.tradeindia.com/cmsmedia/smetimes/media/2015/02/04/kaar.tech.jpg" class= "float-left rounded-circle" alt="Kaar Technologies">
+    <br>
+<br><br>
+<h1 class=homeheader> Kaar Technologies</h1>  
+<br><br>
+<br><br><br>
+<mat-tab-group mat-align-tabs="center" dynamicHeight="true">
+  <mat-tab label="Home" > Home 1 </mat-tab>
+  <mat-tab label="Customer Portal">
+    <br><br><br><br><br><br><br>
+  
+    <form class= "CPlogin" action="/CP1" method="post" >
+      <label for="email">Enter your email</label> <br> <br>
+      <input type="text" class= "CPlogin1" id="email" name="email" placeholder="kaar@kaartech.com" autocomplete="off" required> <br><br><br>
+      <label for="CPpswd">Password</label><br><br>
+      <input type="text" class= "CPlogin1" id="CPpswd" name="CPpswd" autocomplete="off" required> <br><br><br>
+      <input class="submitbtn" type="submit" value="Login">
+    </form>
+   
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </mat-tab>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <mat-tab label="Vendor Portal"> Vendor Portal </mat-tab>
+  <mat-tab label="Employee Portal"> Content 2 </mat-tab>
+  <mat-tab label="Maintainence Portal"> Content 2 </mat-tab>
+  <mat-tab label="Shop Floor Portal"> Content 2 </mat-tab>
+  <mat-tab label="EHSM - Safety Ticket"> Content 2 </mat-tab>
+  <mat-tab label="Quality Check"> Content 2 </mat-tab>
+ 
+</mat-tab-group>
+
+
+  </body>
+</html>
